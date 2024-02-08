@@ -31,6 +31,14 @@
 			"@utilities": ["./src/utilities"]
 		}
 	},
-	"include": ["src", "index.d.ts", "vite.config.ts", "*.ts", "*.vue"],
+	"include": [
+		"env.d.ts",
+		"src/**/*.ts",
+		"src/**/*.ts",
+		"src/**/*.d.ts",
+		"src/**/*.tsx",
+		"src/**/*.vue",
+		"src/router.rs"
+	],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
