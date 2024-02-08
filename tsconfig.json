@@ -38,7 +38,9 @@
 		"src/**/*.d.ts",
 		"src/**/*.tsx",
 		"src/**/*.vue",
-		"src/router.rs"
+		"src/router.rs",
+		"src/**/*.svg",
+		"src/**/*.scss"
 	],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
