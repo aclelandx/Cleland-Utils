@@ -33,8 +33,8 @@ jobs:
       - name: Set up Node and Yarn
         uses: borales/actions-yarn@v2
         with:
-          node-version: 18
-          yarn-version: 1.22.17 # You can specify the version you want here
+          node-version: 20
+          yarn-version: 1.22.21
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install
