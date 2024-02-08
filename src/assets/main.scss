@@ -1,0 +1,72 @@
+@import './mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+	// Dark Color Pallete 01
+	--dark-background-01: #13005a;
+	--dark-background-01-accent: #00337c;
+	--dark-foreground-01: #1c82ad;
+	--dark-foreground-01-accent: #03c988;
+
+	// Dark Color Pallete 02
+	--dark-background-02: #030637;
+	--dark-background-02-accent: #3c0753;
+	--dark-foreground-02: #720455;
+	--dark-foreground-02-accent: #910a67;
+
+	// Dark Color Pallete 03
+	--dark-background-03: #35155d;
+	--dark-background-03-accent: #512b81;
+	--dark-foreground-03: #4477ce;
+	--dark-foreground-03-accent: #8cabff;
+
+	// Dark Color Pallete 04
+	--dark-background-04: #2d3250;
+	--dark-background-04-accent: #424769;
+	--dark-foreground-04: #7077a1;
+	--dark-foreground-04-accent: #f6b17a;
+
+	// Dark Color Pallete 05
+	--dark-background-05: #352f44;
+	--dark-background-05-accent: #5c5470;
+	--dark-foreground-05: #b9b4c7;
+	--dark-foreground-05-accent: #faf0e6;
+
+	/* <------ END DARK COLOR PALLETES ------> */
+
+	// Light Color Pallette 01
+	--light-background-01: #fff7f1;
+	--light-background-01-accent: #ffe4c9;
+	--light-foreground-01: #e78895;
+	--light-foreground-01-accent: #bed1cf;
+
+	// Light Color Pallette 02
+	--light-background-02: #fffbf5;
+	--light-background-02-accent: #f7efe5;
+	--light-foreground-02: #c3acd0;
+	--light-foreground-02-accent: #7743db;
+
+	// Light Color Pallette 03
+	--light-background-03: #7ed7c1;
+	--light-background-03-accent: #f0dbaf;
+	--light-foreground-03: #dc8686;
+	--light-foreground-03-accent: #b06161;
+	// Light Color Pallette 04
+	--light-background-04: #fdf7e4;
+	--light-background-04-accent: #faeed1;
+	--light-foreground-04: #ded0b6;
+	--light-foreground-04-accent: #bbab8c;
+	// Light Color Pallette 05
+	--light-background-05: #45ffca;
+	--light-background-05-accent: #feffac;
+	--light-foreground-05: #ffb6d9;
+	--light-foreground-05-accent: #d67bff;
+	/* <------ END LIGHT COLOR PALLETES ------> */
+
+	// Primary font-family for app.
+	--primary-font-family: 'open sans';
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
