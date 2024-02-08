@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Vite + Yarn Deployment
 
 on:
   # Runs on pushes targeting the default branch
@@ -30,12 +30,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node and Yarn
-        uses: borales/actions-yarn@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 20
-          yarn-version: 1.22.21
-          cache: 'yarn'
+      - name: Install Yarn
+        run: npm install -g yarn
       - name: Install dependencies
         run: yarn install
       - name: Build
